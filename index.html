@@ -4,105 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataArchitectAI - Agentes LLM e Inteligencia Artificial</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            padding-top: 56px;
-        }
-        .jumbotron {
-            background-color: #f8f9fa;
-            padding: 4rem 2rem;
-            margin-bottom: 2rem;
-        }
-        .footer {
-            background-color: #343a40;
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">DataArchitectAI</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cursos">Cursos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacto">Contacto</a>
-                </li>
-            </ul>
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">DataArchitectAI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cursos">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <div class="jumbotron text-center">
-        <h1 class="display-4">Bienvenido a DataArchitectAI</h1>
-        <p class="lead">Transformando el futuro con Inteligencia Artificial y Agentes LLM.</p>
-        <a class="btn btn-primary btn-lg" href="#cursos" role="button">Ver Cursos</a>
+    <div class="container mt-5 p-5 bg-light text-center">
+        <h1>DataArchitectAI</h1>
+        <p class="lead">Impulsando el futuro con Agentes LLM e Inteligencia Artificial.</p>
+        <a href="#cursos" class="btn btn-primary btn-lg">Explora Nuestros Cursos</a>
     </div>
 
-    <!-- Cursos -->
-    <div class="container" id="cursos">
+    <!-- Sección de Cursos -->
+    <section id="cursos" class="container mt-5">
         <h2 class="text-center mb-4">Nuestros Cursos</h2>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-4 mb-4">
+                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Introducción a la IA</h5>
-                        <p class="card-text">Aprende los conceptos básicos de la Inteligencia Artificial y sus aplicaciones.</p>
-                        <a href="#" class="btn btn-primary">Más Información</a>
+                        <h5 class="card-title">Introducción a los Agentes LLM</h5>
+                        <p class="card-text">Aprende los fundamentos de los Large Language Models y cómo construir agentes inteligentes.</p>
+                        <a href="curso-detalles-1.html" class="btn btn-outline-primary">Más Información</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-4 mb-4">
+                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Agentes LLM Avanzados</h5>
-                        <p class="card-text">Profundiza en el desarrollo y aplicación de agentes LLM en diversos campos.</p>
-                        <a href="#" class="btn btn-primary">Más Información</a>
+                        <h5 class="card-title">Desarrollo Avanzado de Agentes AI</h5>
+                        <p class="card-text">Profundiza en técnicas avanzadas para desarrollar agentes de IA robustos y eficientes.</p>
+                        <a href="curso-detalles-2.html" class="btn btn-outline-primary">Más Información</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+            <div class="col-md-4 mb-4">
+                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Etica en la IA</h5>
-                        <p class="card-text">Explora los desafíos éticos y las mejores prácticas en el desarrollo de IA.</p>
-                        <a href="#" class="btn btn-primary">Más Información</a>
+                        <h5 class="card-title">Aplicaciones Prácticas de IA en Empresas</h5>
+                        <p class="card-text">Descubre cómo implementar soluciones de IA para resolver problemas reales en el ámbito empresarial.</p>
+                        <a href="curso-detalles-3.html" class="btn btn-outline-primary">Más Información</a>
                     </div>
                 </div>
             </div>
+            <!-- Puedes añadir más tarjetas de cursos aquí -->
         </div>
-    </div>
+    </section>
 
     <!-- Llamada a la Acción -->
-    <div class="container text-center my-5">
-        <h2>¿Listo para empezar?</h2>
-        <p class="lead">Únete a nuestros cursos y conviértete en un experto en IA y Agentes LLM.</p>
-        <a class="btn btn-success btn-lg" href="#contacto" role="button">Contáctanos</a>
-    </div>
+    <section id="contacto" class="container mt-5 bg-light p-5 text-center">
+        <h2>Da el siguiente paso en tu carrera de IA</h2>
+        <a href="contacto.html" class="btn btn-success btn-lg">Contáctanos</a>
+    </section>
 
     <!-- Pie de Página -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2023 DataArchitectAI. Todos los derechos reservados.</p>
-        </div>
+    <footer class="bg-dark text-light p-4 mt-5 text-center">
+        <p>© 2023 DataArchitectAI. Todos los derechos reservados.</p>
+        <!-- Opcional: Enlaces a redes sociales -->
     </footer>
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
